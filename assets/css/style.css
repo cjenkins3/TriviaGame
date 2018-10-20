@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Acme;
+    background-image: url(../images/triviagamebg.png);
+}
+#phineas {
+    float: right;
+    margin: 10em 7em 0;
+    border-radius: 4%;
+}
+#ferb {
+    float: left;
+    margin: 10em 0 0 7em;
+    border-radius: 4%;
+}
+.container {
+    background: yellow;
+    width: 65em;
+    height: 40em;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 5%;
+}
+.container > h1 {
+    font-size: 60pt;
+    text-align: center;
+    color: black;
+}
+.container > h2 {
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+}
+footer {
+    color: black;
+    text-align: center;
+    font-size: 18pt;
+    margin-right: 4.5em;
+    margin-top: 6em;
+}
+#answerArea {
+    margin: 25em auto;
+    text-align: center;
+}
+#select {
+    font-family: Acme;
+    font-size: 20pt;
+    width: 100px;
+    height: 50px;
+    background: olivedrab;
+    border-radius: 13%;
+}
+
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+        background-color: lightblue;
+    }
+}
